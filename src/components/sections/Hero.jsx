@@ -39,7 +39,7 @@ function Hero() {
 
             <div className="flex gap-2 mt-6">
               <a
-                href="DARSHAN_A_S_RESUME.pdf"
+                href="DARSHAN A S_RESUME.pdf"
                 target="_blank"
                 className="px-6 py-3 border border-black hover:bg-red-800 hover:text-white hover:border-red-800 
                 dark:border-white font-medium transition-all duration-300"
