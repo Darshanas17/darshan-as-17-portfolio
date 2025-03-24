@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
-import NotFound from "./pages/404";
+
 import { useEffect, useState } from "react";
 import { createContext } from "react";
 import "preline/preline";
@@ -26,7 +26,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </AppContext.Provider>
