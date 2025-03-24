@@ -1,7 +1,13 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import Homepage from "./pages/Homepage";
+import {
+  HashRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 import { useEffect, useState, createContext } from "react";
+import { scroller } from "react-scroll";
 import "preline/preline";
+import Homepage from "./pages/Homepage";
 
 export const AppContext = createContext();
 
@@ -21,12 +27,29 @@ function App() {
   return (
     <AppContext.Provider value={{ theme, switchTheme }}>
       <Router>
+        <ScrollToHashElement />
         <Routes>
           <Route path="/" element={<Homepage />} />
         </Routes>
       </Router>
     </AppContext.Provider>
   );
+}
+
+function ScrollToHashElement() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      scroller.scrollTo(location.hash.substring(1), {
+        smooth: true,
+        duration: 500,
+        offset: -50,
+      });
+    }
+  }, [location]);
+
+  return null;
 }
 
 export default App;

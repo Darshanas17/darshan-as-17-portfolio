@@ -1,5 +1,6 @@
 import user_info from "../../data/user_info.js";
 import { IoIosArrowForward } from "react-icons/io";
+import { Link } from "react-scroll"; // Import react-scroll
 
 function Hero() {
   return (
@@ -17,7 +18,9 @@ function Hero() {
 
           {/* =========== TOOLTIP TEXT =========== */}
           <span
-            className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity  inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 text-xs font-medium text-zinc-950 dark:text-white rounded shadow-sm"
+            className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity  
+            inline-block absolute invisible z-10 py-1 px-2 bg-white border dark:border-zinc-800 dark:bg-zinc-950 
+            text-xs font-medium text-zinc-950 dark:text-white rounded shadow-sm"
             role="tooltip"
           >
             Hello! 👋 How are you doing? 🤔
@@ -36,19 +39,27 @@ function Hero() {
 
             <div className="flex gap-2 mt-6">
               <a
-                href="DARSHAN A S _RESUME.pdf"
+                href="DARSHAN_A_S_RESUME.pdf"
                 target="_blank"
-                className="px-6 py-3 border border-black hover:bg-red-800 hover:text-white hover:border-red-800 dark:border-white font-medium transition-all duration-300"
+                className="px-6 py-3 border border-black hover:bg-red-800 hover:text-white hover:border-red-800 
+                dark:border-white font-medium transition-all duration-300"
               >
                 My Resume
               </a>
-              <a
-                href="#contact"
-                className="px-6 py-3 hover:text-red-800 dark:hover:text-red-500 transition-all duration-300 flex gap-3 hover:gap-4"
+
+              <Link
+                to="contact"
+                smooth={true}
+                duration={500}
+                offset={-50}
+                hashSpy={true}
+                isDynamic={false}
+                className="cursor-pointer px-6 py-3 hover:text-red-800 dark:hover:text-red-500 transition-all duration-300 
+                flex gap-3 hover:gap-4"
               >
                 <span className="self-center font-medium">Contact</span>
                 <IoIosArrowForward className="self-center" />
-              </a>
+              </Link>
             </div>
           </div>
 
