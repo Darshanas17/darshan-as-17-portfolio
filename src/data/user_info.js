@@ -7,7 +7,7 @@ const info = {
     role: "MERN Stack Developer",
     photo:
       "https://res.cloudinary.com/dedykxiko/image/upload/v1742297487/darshan_cbgnn4.jpg",
-    email: "darshanasatruval@gmail.com",
+    email: "darshanatruval@gmail.com",
   },
 
   // ============ SOCIAL LINKS ============
@@ -140,7 +140,7 @@ const info = {
   contact: {
     title: "Let's Get in Touch: Ways to Connect with Me",
     description:
-      "Thank you for visiting my portfolio! I appreciate your interest and welcome any questions, feedback, or collaboration opportunities. You can reach out to me at darshanasatruval@gmail.com, and I’ll do my best to respond within 24 hours. You can also connect with me on social media using the links below. Looking forward to hearing from you!",
+      "Thank you for visiting my portfolio! I appreciate your interest and welcome any questions, feedback, or collaboration opportunities. You can reach out to me at darshanatruval@gmail.com, and I’ll do my best to respond within 24 hours. You can also connect with me on social media using the links below. Looking forward to hearing from you!",
   },
 
   // ============ FOOTER ============
