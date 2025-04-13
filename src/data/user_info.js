@@ -19,6 +19,64 @@ const info = {
   // ============ PROJECTS ============
   projects: [
     {
+      title: "Events Registration - React App",
+      description:
+        "An interactive React app that displays a list of events and allows users to view registration details dynamically based on selection.",
+      technologies: "React, JavaScript, CSS",
+      github: "https://github.com/Darshanas17/react-events-app",
+      link: "https://darshanas17.github.io/react-events-app/",
+    },
+    {
+      title: "Crypto Tracker - React App",
+      description:
+        "A cryptocurrency tracker built with React that shows live price data of crypto coins in USD and EUR. Includes a clean UI for browsing coins with quick access to current value and updates.",
+      technologies: "React, REST API, JavaScript, CSS",
+      github: "https://github.com/Darshanas17/crypto-tracker-react",
+      link: "https://darshanas17.github.io/crypto-tracker-react/",
+    },
+    {
+      title: "GitHub Popular Repos - React App",
+      description:
+        "A dynamic React application that fetches and displays popular GitHub repositories categorized by programming language using GitHub's public API.",
+      technologies: "React, JavaScript, REST API, CSS",
+      github: "https://github.com/Darshanas17/react-github-popular-repos",
+      link: "https://darshanas17.github.io/react-github-popular-repos/",
+    },
+
+    {
+      title: "Appointments Scheduler - React App",
+      description:
+        "An appointments management app built using React that lets users add, view, and mark appointments as important.",
+      technologies: "React, JavaScript, CSS",
+      github: "https://github.com/Darshanas17/Appointments-App-React",
+      link: "https://darshanas17.github.io/Appointments-App-React/",
+    },
+    {
+      title: "Password Manager - React App",
+      description:
+        "A secure and intuitive password manager built using React that allows users to store, search, and delete saved login credentials.",
+      technologies: "React, JavaScript, CSS",
+      github: "https://github.com/Darshanas17/react-password-manager",
+      link: "https://darshanas17.github.io/react-password-manager/",
+    },
+    {
+      title: "Match Game - React App",
+      description:
+        "A fun and responsive memory game built with React where users match images under a time limit, enhancing engagement and interaction.",
+      technologies: "React, JavaScript, CSS",
+      github: "https://github.com/Darshanas17/react-match-game",
+      link: "https://darshanas17.github.io/react-match-game/",
+    },
+    {
+      title: "Digital Timer - React App",
+      description:
+        "A functional digital timer application built with React that supports start, pause, and reset functionalities with a clean UI.",
+      technologies: "React, JavaScript, CSS",
+      github: "https://github.com/Darshanas17/Digital-Timer-App-React",
+      link: "https://darshanas17.github.io/Digital-Timer-App-React/",
+    },
+
+    {
       title: "Todo List - JavaScript App",
       description:
         "A feature-rich and responsive Todo List application built with HTML, CSS, and JavaScript, providing seamless task management with local storage for data persistence.",
@@ -26,30 +84,7 @@ const info = {
       github: "https://github.com/Darshanas17/Todo-List-HTML-CSS-JS",
       link: "https://darshanas17.github.io/Todo-List-HTML-CSS-JS/",
     },
-    {
-      title: "Browser History - React App",
-      description:
-        "A modern browser history management application built with React, enabling users to efficiently view, search, and manage their browsing history with an intuitive user interface.",
-      technologies: "React, JavaScript, CSS, UI State",
-      github: "https://github.com/Darshanas17/browser-history-app",
-      link: "https://bhistoryd17.ccbp.tech/",
-    },
-    {
-      title: "Gallery - React App",
-      description:
-        "An interactive and visually appealing gallery application built with React, featuring smooth animations and filtering options for an enhanced user experience.",
-      technologies: "React, JavaScript, CSS, UI State",
-      github: "https://github.com/Darshanas17/gallery-react-app",
-      link: "https://galleryappd17.ccbp.tech/",
-    },
-    {
-      title: "App Store - React App",
-      description:
-        "A responsive and dynamic React-based application that allows users to search and filter apps by category, with real-time UI updates and intuitive navigation.",
-      technologies: "React, JavaScript, CSS, UI State",
-      github: "https://github.com/Darshanas17/App-Store-React",
-      link: "https://appstored17.ccbp.tech/",
-    },
+
     {
       title: "Project Management - React App",
       description:
@@ -59,6 +94,14 @@ const info = {
       link: "https://projappd17.ccbp.tech/",
     },
     {
+      title: "Money Manager - React App",
+      description:
+        "A money management tool developed in React that helps users track income and expenses, with the ability to add, delete, and view financial records.",
+      technologies: "React, JavaScript, CSS",
+      github: "https://github.com/Darshanas17/money-manager-react-app",
+      link: "https://darshanas17.github.io/money-manager-react-app/",
+    },
+    {
       title: "Comments - React App",
       description:
         "An interactive comments application built with React, allowing users to add, like, and delete comments in real-time. Features a clean, modern UI with a fully responsive design.",
@@ -66,6 +109,7 @@ const info = {
       github: "https://github.com/Darshanas17/comments-app-react",
       link: "https://darshanas17.github.io/comments-app-react/",
     },
+
     {
       title: "Penetration Testing - Security App",
       description:
@@ -79,12 +123,6 @@ const info = {
   // ============ EDUCATION ============
   education: [
     {
-      school: "NxtWave",
-      degree: "MERN Stack Development",
-      duration: "2024 - present",
-      image: "https://static-asset.inc42.com/logo/nxtwave.png",
-    },
-    {
       school: "Vidyavardhaka College of Engineering",
       degree: "Bachelor of Engineering in Information Science and Engineering",
       duration: "2020 - 2024",
@@ -94,6 +132,13 @@ const info = {
 
   // ============ EXPERIENCE ============
   experience: [
+    {
+      position: "MERN Stack Developer",
+      company: "NxtWave",
+      duration: "2024 - Present",
+      image: "https://static-asset.inc42.com/logo/nxtwave.png",
+      descriptions: [],
+    },
     {
       position: "Intern - Web Development",
       company: "Infotech Pvt. Ltd.",
@@ -117,6 +162,18 @@ const info = {
       link: "https://drive.google.com/file/d/1LaXeDtAXfQdWUpDkms_8N7s4Ec6sFQtJ/view",
     },
     {
+      title: "Node.js",
+      description: "Provided by NxtWave",
+      icon: "nxtwave",
+      link: "https://certificates.ccbp.in/intensive/node-js?id=FCFPCKUUNO",
+    },
+    {
+      title: "Programming Foundations with Python",
+      description: "Provided by NxtWave",
+      icon: "nxtwave",
+      link: "https://certificates.ccbp.in/intensive/programming-foundations?id=MHJEHRHADE",
+    },
+    {
       title: "Introduction to Structured Query Language (SQL)",
       description: "Provided by Coursera",
       icon: "coursera",
@@ -135,7 +192,6 @@ const info = {
       link: "https://drive.google.com/file/d/1jW5m7V07QfEwlbOgXLEOqoIEHAPn0P-D/view?usp=sharing",
     },
   ],
-
   // ============ CONTACT ============
   contact: {
     title: "Let's Get in Touch: Ways to Connect with Me",

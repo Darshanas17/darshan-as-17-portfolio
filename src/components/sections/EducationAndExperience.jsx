@@ -3,8 +3,8 @@ import { FaLandmark } from "react-icons/fa";
 import { FaBuildingUser } from "react-icons/fa6";
 import { FcGoogle } from "react-icons/fc";
 import { SiCoursera, SiInfosys } from "react-icons/si";
-import { FaUniversity } from "react-icons/fa";
 import { PiCertificateFill } from "react-icons/pi";
+import Icon from "../../components/Icon";
 
 function EducationAndExperience() {
   return (
@@ -86,9 +86,16 @@ function EducationAndExperience() {
                         title="Infosys Springboard"
                       />
                     ) : cert.icon === "nptel" ? (
-                      <FaUniversity
+                      <Icon
+                        name="nptel"
                         className="text-red-500 absolute right-5 top-3 text-3xl"
                         title="NPTEL"
+                      />
+                    ) : cert.icon === "nxtwave" ? (
+                      <Icon
+                        name="nxtwave"
+                        className="text-red-500 absolute right-5 top-3 text-3xl"
+                        title="NxtWave"
                       />
                     ) : null}
 

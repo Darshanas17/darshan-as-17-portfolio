@@ -1,8 +1,14 @@
 import user_info from "../../data/user_info.js";
 import { IoIosArrowForward } from "react-icons/io";
-import { Link } from "react-scroll"; // Import react-scroll
+// import { Link } from "react-scroll"; // Import react-scroll
 
 function Hero() {
+  const scrollToContact = () => {
+    window.scrollTo({
+      top: document.body.scrollHeight,
+      behavior: "smooth",
+    });
+  };
   return (
     <section
       id="hero"
@@ -47,19 +53,13 @@ function Hero() {
                 My Resume
               </a>
 
-              <Link
-                to="contact"
-                smooth={true}
-                duration={500}
-                offset={-50}
-                hashSpy={true}
-                isDynamic={false}
-                className="cursor-pointer px-6 py-3 hover:text-red-800 dark:hover:text-red-500 transition-all duration-300 
-                flex gap-3 hover:gap-4"
+              <a
+                onClick={scrollToContact}
+                className="px-6 py-3 hover:text-red-800 dark:hover:text-red-500 transition-all duration-300 flex gap-3 hover:gap-4"
               >
                 <span className="self-center font-medium">Contact</span>
                 <IoIosArrowForward className="self-center" />
-              </Link>
+              </a>
             </div>
           </div>
 
