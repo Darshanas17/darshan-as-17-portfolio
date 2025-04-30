@@ -18,7 +18,7 @@ import {
   SiNpm,
   SiGooglechrome,
   SiGooglecloud,
-  SiTailwindcss,
+  // SiTailwindcss,
 } from "react-icons/si";
 
 function Skills() {
@@ -73,9 +73,9 @@ function Skills() {
         <span className="inline-flex items-center gap-x-2 py-4 px-3 hover:-translate-y-1.5 transition duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
           <FaBootstrap className="text-2xl" /> Bootstrap
         </span>
-        <span className="inline-flex items-center gap-x-2 py-4 px-3 hover:-translate-y-1.5 transition duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
+        {/* <span className="inline-flex items-center gap-x-2 py-4 px-3 hover:-translate-y-1.5 transition duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
           <SiTailwindcss className="text-2xl" /> Tailwind CSS
-        </span>
+        </span> */}
         <span className="inline-flex items-center gap-x-2 py-4 px-3 hover:-translate-y-1.5 transition duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
           <SiNpm className="text-2xl" /> NPM
         </span>

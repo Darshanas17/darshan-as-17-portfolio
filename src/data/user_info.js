@@ -19,12 +19,20 @@ const info = {
   // ============ PROJECTS ============
   projects: [
     {
-      title: "Events Registration - React App",
+      title: "Nxt Trendz - React App",
       description:
-        "An interactive React app that displays a list of events and allows users to view registration details dynamically based on selection.",
-      technologies: "React, JavaScript, CSS",
-      github: "https://github.com/Darshanas17/react-events-app",
-      link: "https://darshanas17.github.io/react-events-app/",
+        "A modern e-commerce React application with user authentication, product listings, detailed product pages, and responsive design.",
+      technologies: "React, JavaScript, CSS, REST API",
+      github: "https://github.com/Darshanas17/react-nxt-trendz",
+      link: "https://darshanas17.github.io/react-nxt-trendz/",
+    },
+    {
+      title: "Jobby App - React Application",
+      description:
+        "A job portal React application that allows users to search for jobs, view job details, and apply filters. It includes login authentication and protected routes for a secure experience.",
+      technologies: "React, JavaScript, CSS, REST API",
+      github: "https://github.com/Darshanas17/react-jobby-app",
+      link: "https://darshanas17.github.io/react-jobby-app/",
     },
     {
       title: "Crypto Tracker - React App",
@@ -166,6 +174,12 @@ const info = {
       description: "Provided by NxtWave",
       icon: "nxtwave",
       link: "https://certificates.ccbp.in/intensive/node-js?id=FCFPCKUUNO",
+    },
+    {
+      title: "Responsive Web Design using Flexbox",
+      description: "Provided by NxtWave",
+      icon: "nxtwave",
+      link: "https://certificates.ccbp.in/intensive/flexbox?id=VVTXRKHATX",
     },
     {
       title: "Programming Foundations with Python",
