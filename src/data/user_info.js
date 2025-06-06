@@ -143,7 +143,7 @@ const info = {
     {
       position: "MERN Stack Developer",
       company: "NxtWave",
-      duration: "2024 - Present",
+      duration: "August 2024 - Present",
       image: "https://static-asset.inc42.com/logo/nxtwave.png",
       descriptions: [],
     },
@@ -164,16 +164,22 @@ const info = {
   // ============ CERTIFICATES ============
   certificates: [
     {
-      title: "Google Cloud Career Readiness Associate Cloud Engineer",
-      description: "Provided by Google",
-      icon: "google",
-      link: "https://drive.google.com/file/d/1LaXeDtAXfQdWUpDkms_8N7s4Ec6sFQtJ/view",
+      title: "React JS",
+      description: "Provided by NxtWave",
+      icon: "nxtwave",
+      link: "https://certificates.ccbp.in/intensive/react-js?id=GWJJCSIYVA",
     },
     {
       title: "Node.js",
       description: "Provided by NxtWave",
       icon: "nxtwave",
       link: "https://certificates.ccbp.in/intensive/node-js?id=FCFPCKUUNO",
+    },
+    {
+      title: "JavaScript Essentials",
+      description: "Provided by NxtWave",
+      icon: "nxtwave",
+      link: "https://certificates.ccbp.in/intensive/javascript-essentials?id=BQCKFYIMAJ",
     },
     {
       title: "Responsive Web Design using Flexbox",
@@ -198,6 +204,12 @@ const info = {
       description: "Provided by Infosys Springboard",
       icon: "infosys",
       link: "https://drive.google.com/file/d/1v6wb3FbdSoFK_JPwbw6pgx6D_LTAbiCO/view?usp=sharing",
+    },
+    {
+      title: "Google Cloud Career Readiness Associate Cloud Engineer",
+      description: "Provided by Google",
+      icon: "google",
+      link: "https://drive.google.com/file/d/1LaXeDtAXfQdWUpDkms_8N7s4Ec6sFQtJ/view",
     },
     {
       title: "NPTEL Data Mining, IIT Kharagpur",
