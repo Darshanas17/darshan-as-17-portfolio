@@ -19,6 +19,14 @@ const info = {
   // ============ PROJECTS ============
   projects: [
     {
+      title: "Insta Share - React App",
+      description:
+        "A mini Instagram-like React application with user authentication, post feeds, user profiles, and responsive design.",
+      technologies: "React, JavaScript, CSS, REST API",
+      github: "https://github.com/Darshanas17/Insta-Share",
+      link: "https://instashare17dar.ccbp.tech/",
+    },
+    {
       title: "Nxt Trendz - React App",
       description:
         "A modern e-commerce React application with user authentication, product listings, detailed product pages, and responsive design.",
@@ -42,14 +50,14 @@ const info = {
       github: "https://github.com/Darshanas17/crypto-tracker-react",
       link: "https://darshanas17.github.io/crypto-tracker-react/",
     },
-    {
-      title: "GitHub Popular Repos - React App",
-      description:
-        "A dynamic React application that fetches and displays popular GitHub repositories categorized by programming language using GitHub's public API.",
-      technologies: "React, JavaScript, REST API, CSS",
-      github: "https://github.com/Darshanas17/react-github-popular-repos",
-      link: "https://darshanas17.github.io/react-github-popular-repos/",
-    },
+    // {
+    //   title: "GitHub Popular Repos - React App",
+    //   description:
+    //     "A dynamic React application that fetches and displays popular GitHub repositories categorized by programming language using GitHub's public API.",
+    //   technologies: "React, JavaScript, REST API, CSS",
+    //   github: "https://github.com/Darshanas17/react-github-popular-repos",
+    //   link: "https://darshanas17.github.io/react-github-popular-repos/",
+    // },
 
     {
       title: "Appointments Scheduler - React App",
@@ -75,14 +83,14 @@ const info = {
       github: "https://github.com/Darshanas17/react-match-game",
       link: "https://darshanas17.github.io/react-match-game/",
     },
-    {
-      title: "Digital Timer - React App",
-      description:
-        "A functional digital timer application built with React that supports start, pause, and reset functionalities with a clean UI.",
-      technologies: "React, JavaScript, CSS",
-      github: "https://github.com/Darshanas17/Digital-Timer-App-React",
-      link: "https://darshanas17.github.io/Digital-Timer-App-React/",
-    },
+    // {
+    //   title: "Digital Timer - React App",
+    //   description:
+    //     "A functional digital timer application built with React that supports start, pause, and reset functionalities with a clean UI.",
+    //   technologies: "React, JavaScript, CSS",
+    //   github: "https://github.com/Darshanas17/Digital-Timer-App-React",
+    //   link: "https://darshanas17.github.io/Digital-Timer-App-React/",
+    // },
 
     {
       title: "Todo List - JavaScript App",
