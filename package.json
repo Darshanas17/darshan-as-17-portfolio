@@ -5,6 +5,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "update-my-code": "git add . && git commit -m 'Update resume and project' && git push origin main && npm run deploy",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",

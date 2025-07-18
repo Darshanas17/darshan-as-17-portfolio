@@ -67,6 +67,7 @@ const info = {
       github: "https://github.com/Darshanas17/Appointments-App-React",
       link: "https://darshanas17.github.io/Appointments-App-React/",
     },
+
     {
       title: "Password Manager - React App",
       description:
@@ -139,7 +140,7 @@ const info = {
   // ============ EDUCATION ============
   education: [
     {
-      school: "Vidyavardhaka College of Engineering",
+      school: "Vidyavardhaka College of Engineering, Mysuru",
       degree: "Bachelor of Engineering in Information Science and Engineering",
       duration: "2020 - 2024",
       image: "https://vvce.ac.in/wp-content/uploads/2024/07/vvce-logo.png",
