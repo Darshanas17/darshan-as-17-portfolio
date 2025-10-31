@@ -6,7 +6,7 @@ const info = {
       "Skilled MERN Stack Developer with a strong foundation in building secure, scalable, and efficient web applications. Proficient in modern frameworks and best development practices, I am dedicated to delivering high-quality, maintainable solutions. Passionate about continuous learning, problem-solving, and optimizing user experiences through innovative technology.",
     role: "MERN Stack Developer",
     photo:
-      "https://res.cloudinary.com/dedykxiko/image/upload/v1742297487/darshan_cbgnn4.jpg",
+      "https://res.cloudinary.com/dedykxiko/image/upload/v1761890706/profile_gnddc8.png",
     email: "darshanatruval@gmail.com",
   },
 
@@ -150,9 +150,9 @@ const info = {
   // ============ EXPERIENCE ============
   experience: [
     {
-      position: "MERN Stack Developer",
+      position: "Trainee MERN Stack Developer",
       company: "NxtWave",
-      duration: "August 2024 - Present",
+      duration: "August 2024 - September 2025",
       image: "https://static-asset.inc42.com/logo/nxtwave.png",
       descriptions: [],
     },

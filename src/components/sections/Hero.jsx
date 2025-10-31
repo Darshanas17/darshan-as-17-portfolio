@@ -47,8 +47,8 @@ function Hero() {
               <a
                 href="DARSHAN_A_S_RESUME.pdf"
                 target="_blank"
-                className="px-6 py-3 border border-black hover:bg-red-800 hover:text-white hover:border-red-800 
-                dark:border-white font-medium transition-all duration-300"
+                rel="noopener noreferrer"
+                className="px-6 py-3 border border-black rounded-md hover:bg-red-800 hover:text-white hover:border-red-800 dark:border-white font-medium transition-all duration-300"
               >
                 My Resume
               </a>

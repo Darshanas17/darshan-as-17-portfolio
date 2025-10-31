@@ -37,9 +37,9 @@ function Skills() {
         <span className="inline-flex items-center gap-x-2 py-4 px-3 hover:-translate-y-1.5 transition duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
           <FaJsSquare className="text-2xl" /> JavaScript
         </span>
-        <span className="inline-flex items-center gap-x-2 py-4 px-3 hover:-translate-y-1.5 transition duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
+        {/* <span className="inline-flex items-center gap-x-2 py-4 px-3 hover:-translate-y-1.5 transition duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
           <BiLogoTypescript className="text-2xl" /> TypeScript
-        </span>
+        </span> */}
         <span className="inline-flex items-center gap-x-2 py-4 px-3 hover:-translate-y-1.5 transition duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
           <FaPython className="text-2xl" /> Python
         </span>
@@ -82,9 +82,9 @@ function Skills() {
         <span className="inline-flex items-center gap-x-2 py-4 px-3 hover:-translate-y-1.5 transition duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
           <SiGooglechrome className="text-2xl" /> Google DevTools
         </span>
-        <span className="inline-flex items-center gap-x-2 py-4 px-3 hover:-translate-y-1.5 transition duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
+        {/* <span className="inline-flex items-center gap-x-2 py-4 px-3 hover:-translate-y-1.5 transition duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500">
           <SiGooglecloud className="text-2xl" /> Google Cloud
-        </span>
+        </span> */}
       </div>
     </section>
   );
